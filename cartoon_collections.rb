@@ -1,3 +1,4 @@
+require 'pry'
 def roll_call_dwarves(array)
  i =1
  while i <= array.length
@@ -14,6 +15,7 @@ def summon_captain_planet(array)
   new.push(array.map { |n| n.capitalize})
   new2 << new.map{|n| "#{n}!"}
   new2
+  binding.pry
 end
 
 def long_planeteer_calls# code an argument here
