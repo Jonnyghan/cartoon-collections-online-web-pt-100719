@@ -13,7 +13,7 @@ def summon_captain_planet(array)
   new= []
   new2=[]
   new.push(array.map { |n| puts n.capitalize + "!"})
-  
+  new
   binding.pry
 end
 
