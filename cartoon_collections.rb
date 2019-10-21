@@ -18,7 +18,7 @@ def summon_captain_planet(array)
   b.push(a.collect { |n| n.capitalize})
   i += 1
   b
-  binding.pry
+  
 end
 end
 
