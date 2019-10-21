@@ -14,8 +14,8 @@ def summon_captain_planet(array)
   b = []
   i = 1
   while i < array.length do
-  a.push(array.collect { |n| puts n + "!"})
-  b.push(array.collect { |n| puts n.capitalize})
+  a.push(array.collect { |n| n + "!"})
+  b.push(array.collect { |n| n.capitalize})
   i += 1
   b
 end
