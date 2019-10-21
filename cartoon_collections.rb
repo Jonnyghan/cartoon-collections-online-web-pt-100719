@@ -10,12 +10,14 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  new= []
+  a = []
+  b = []
   i = 1
   while i < array.length do
-  new.push(array.collect { |n| puts n.capitalize + "!"})
+  a.push(array.collect { |n| puts n + "!"})
+  b.push(array.collect { |n| puts n.capitalize})
   i += 1
-  new
+  b
 end
 end
 
