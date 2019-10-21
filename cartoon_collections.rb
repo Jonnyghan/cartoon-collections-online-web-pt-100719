@@ -14,7 +14,7 @@ def summon_captain_planet(array)
   new2=[]
   new.push(array.map { |n| puts n.capitalize + "!"})
   new
-  binding.pry
+  
 end
 
 def long_planeteer_calls# code an argument here
